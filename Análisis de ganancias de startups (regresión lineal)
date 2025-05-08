@@ -1,0 +1,28 @@
+# Análisis de Ganancias de Startups (Regresión Lineal)
+
+Este proyecto analiza los factores que más impactan en las ganancias (`Profit`) de startups en Estados Unidos, usando regresión lineal múltiple.
+
+## 🔍 Dataset
+- Nombre: `startups_profit_data.csv`
+- Columnas relevantes: R&D Spend, Administration, Marketing Spend, State, Profit
+
+## 📈 Metodología
+1. Carga y exploración de datos
+2. Análisis de correlaciones
+3. Codificación de variables categóricas
+4. Entrenamiento de modelo de regresión lineal
+5. Evaluación con R² y MSE
+
+## 🧠 Conclusiones
+- La inversión en **R&D (Investigación y Desarrollo)** tiene la mayor influencia positiva sobre las ganancias.
+- El gasto en Marketing tiene un impacto leve.
+- La Administración tiene una relación negativa.
+
+## 🔗 Resultado
+El modelo obtuvo un R² de **0.89**, lo que indica un buen ajuste.
+
+## 📁 Archivos incluidos
+- `Analisis_Regresion_Profit_Startups.ipynb`
+- `Analisis_Regresion_Profit_Startups.pdf`
+- `startups_profit_data.csv`
+- `README.md`
